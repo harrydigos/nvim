@@ -2,14 +2,14 @@ return {
   "nvim-neo-tree/neo-tree.nvim",
   opts = {
     window = {
-      position = "float",
-      -- auto_expand_width = false, -- expand the window when file exceeds the window width. does not work with position = "float"
-      popup = { -- settings that apply to float position only
-        size = {
-          height = "80%",
-          width = "50%",
-        },
-      },
+      position = "left",
+      auto_expand_width = true, -- expand the window when file exceeds the window width. does not work with position = "float"
+      -- popup = { -- settings that apply to float position only
+      --   size = {
+      --     height = "80%",
+      --     width = "50%",
+      --   },
+      -- },
       mappings = {
         w = false,
         h = function(state)
