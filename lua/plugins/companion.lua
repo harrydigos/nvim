@@ -112,6 +112,7 @@ return {
   },
   {
     "olimorris/codecompanion.nvim",
+    enabled = false,
     dependencies = {
       "nvim-lua/plenary.nvim",
       "nvim-treesitter/nvim-treesitter",
@@ -198,7 +199,7 @@ return {
       display = {
         chat = {
           -- Change to true to show the current model
-          show_settings = true,
+          -- show_settings = true,
           window = {
             layout = "vertical", -- float|vertical|horizontal|buffer
           },
