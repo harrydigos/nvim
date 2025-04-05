@@ -2,7 +2,9 @@ return {
   {
     "pmizio/typescript-tools.nvim",
     dependencies = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
-    opts = {},
+    opts = {
+      expose_as_code_action = {},
+    },
   },
   { "dmmulroy/ts-error-translator.nvim" },
   {
@@ -10,7 +12,7 @@ return {
     opts = {
       auto_focus_qflist = true,
       use_diagnostics = true,
-      run_as_monorepo = true,
+      -- run_as_monorepo = true,
       flags = {
         noEmit = true,
       },
