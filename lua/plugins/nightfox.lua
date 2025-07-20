@@ -75,7 +75,7 @@ return {
         },
         diag = {
           error = "red",
-          warn = "red",
+          warn = "yellow",
           info = "cyan",
           hint = "magenta",
         },
